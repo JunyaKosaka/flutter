@@ -57,7 +57,7 @@ class _PomodoroState extends State<Pomodoro> {
           decoration: BoxDecoration(
             gradient: LinearGradient(
               colors: [Color(0xff1542bf), Color(0xff51a8ff)],
-              begin: FractionalOffset(0.5, 1)
+              begin: FractionalOffset(0.5, 1.0)
             )
           ),
           width: double.infinity,
